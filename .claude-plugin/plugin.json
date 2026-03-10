@@ -1,0 +1,9 @@
+{
+  "name": "career-assistant",
+  "version": "0.1.0",
+  "description": "Passive job search assistant — find signal, assess fit, craft targeted applications",
+  "author": {
+    "name": "Waligóra"
+  },
+  "keywords": ["career", "job-search", "linkedin", "cv", "resume", "applications"]
+}
