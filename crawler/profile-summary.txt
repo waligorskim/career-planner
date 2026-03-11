@@ -1,0 +1,41 @@
+CANDIDATE: Mateusz Waligórski
+LOCATION: Warsaw, Poland
+TARGET SENIORITY: Director / Head / VP / C-level
+TARGET SALARY: 25,000+ PLN/month (B2B)
+
+CORE STRENGTHS:
+- 16+ years spanning analytics, UX, product, and AI
+- Led 300-person IT division at PWPW (Polish state enterprise) — national eID, ePassport, PKI systems
+- Led AI/Gemini deployment at Displate — 750% MoM sales growth, Google Cloud case study
+- Head of Analytics + Head of NFT at Displate (global art marketplace, Disney/Marvel partnerships)
+- Head of UX at RTV Euro AGD (Poland's largest electronics retailer, >1B PLN revenue)
+- Head of Product at Going (travel e-commerce)
+- Co-Founder of SwipePads (AI mobile startup)
+- 12+ years teaching UX Design at SWPS University (Head of postgraduate programme)
+
+DOMAIN EXPERTISE:
+- AI/ML strategy and deployment (Gemini, LLMs, generative AI)
+- Data & Analytics leadership (GA360, BI, A/B testing, CRO)
+- Product management and digital transformation
+- UX research and design at scale
+- E-commerce platforms
+- Government digital identity / GovTech
+- NFT/Web3/blockchain (Ethereum)
+- Community building (People That Count, Web Analytics Wednesday, MeasureCamp)
+
+TECH SKILLS:
+- Google Cloud Platform, AWS, Vertex AI
+- Google Analytics (GA/GA4/GA360), certified GAIQ
+- Agile/Scrum (PSM I + PSPO I + AgilePM certified)
+- SQL, data visualization, BI tools
+- OSINT (Niebezpiecznik certified)
+
+BEST FIT ROLES:
+- Head/Director/VP of AI or AI Strategy
+- Head/Director of Data & Analytics
+- Chief Data Officer (CDO) / Chief AI Officer (CAIO)
+- Head/Director of Product (data/AI-focused)
+- Head/Director of Digital Transformation
+- VP of Product / VP of Engineering (if AI-centric)
+- Entrepreneur in Residence (AI/data focus)
+- Director of UX (at enterprise scale)
