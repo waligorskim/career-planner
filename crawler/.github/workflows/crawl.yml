@@ -1,0 +1,45 @@
+name: Job Crawler
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 6,12,18,0 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        working-directory: crawler
+        run: npm install
+
+      - name: Restore job database
+        uses: actions/cache@v4
+        with:
+          path: crawler/data/jobs.db
+          key: jobs-db-${{ github.run_id }}
+          restore-keys: |
+            jobs-db-
+
+      - name: Run crawler
+        working-directory: crawler
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: npx tsx src/index.ts
+
+      - name: Save job database
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: crawler/data/jobs.db
+          key: jobs-db-${{ github.run_id }}
